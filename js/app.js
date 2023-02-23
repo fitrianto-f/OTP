@@ -31,8 +31,8 @@ function parseURLSearch(search) {
 new Vue({
   el: '#app',
   data: {
-    secret_key: 'XXXXXSAMPLEXXXXX',
-    nickname: 'user@sample.com',
+    secret_key: 'Authenticator Setup Key',
+    nickname: 'KuyShare TOTP Generator',
     uri: 'otpauth://',
     digits: 6,
     period: 30,
